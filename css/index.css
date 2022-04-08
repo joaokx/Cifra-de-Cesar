@@ -1,0 +1,38 @@
+body{
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+background-image: url(../imagens/karl_theodor_von_piloty_murder_of_caesar_1865.jpg);
+background-repeat: no-repeat;
+color: white;
+max-width: 400px;
+font-size: 18px;
+padding: 0;
+margin: 100px;
+align-items: center;
+justify-content: space-between;
+}
+
+#btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all 0.2s;
+    position: absolute;
+}
+#btn::after {
+    background-color: #fff;
+}
+
+#btn::after {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+}
